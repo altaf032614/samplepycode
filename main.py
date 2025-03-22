@@ -18,4 +18,4 @@ print(wave.shape)
 np.save('sine_wave.npy', wave)
 loaded_wave = np.load('sine_wave.npy')
 print(loaded_wave)
-
+print("now this is altaf")
