@@ -9,7 +9,9 @@ def generate_sine_wave(frequency, duration, sample_rate):
     wave = np.sin(2 * np.pi * frequency * t)
     return wave
 
+
 wave = generate_sine_wave(1000, 2, 100)
+
 print(type(wave))
 print(wave.shape)
-print (wave)
+
